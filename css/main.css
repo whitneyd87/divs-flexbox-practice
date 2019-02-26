@@ -85,9 +85,9 @@ textarea {
    ========================================================================== */
 
 .browserupgrade {
-    margin: 0.2em 0;
     background: #ccc;
     color: #000;
+    margin: 0.2em 0;
     padding: 0.2em 0;
 }
 
@@ -97,31 +97,65 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #3F7F53;
   height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
+  color: #fff;
+  font-family: 'Century Gothic', sans-serif;
   font-size: 1.25em;
   height: 100%;
-  background-color: #66CC86;
+  padding: 2em;
 }
 
-.wrapper {
+header, footer {
+  height: 80px;
+  width: 100%;
+}
+
+
+main {
+  height: 250px;
+  width: 100%;
+  font-size: 1.5em;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+main, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-family: 'Crete Round', serif;
+  font-size: 3em;
+  letter-spacing: 3px;
+  padding: 3%;
+}
+
+#wrapper {
   align-items: center;
   display: flex;
-  flex-flow: row wrap
-  font-weight: 700;
+  flex-flow: row wrap;
+  height: 100%;
   justify-content: space-between;
 }
 
+
+
 .div-1, .div-2, .div-3 {
   align-items: center;
-  background-color: #3F7F53;
   border-top: 1px solid #7FFFA7;
   border-bottom: 1px solid #7FFFA7;
+  border-left: 1px solid #667F6E;
+  border-right: 1px solid #667F6E;
   color: #fff;
   display: flex;
   font-family: 'Century Gothic', sans-serif;
@@ -132,14 +166,9 @@ body {
   letter-spacing: 0.5px;
   line-height: 1.5em;
   padding: 3%;
-  width: 30%;
+  width: 25%;
 }
 
-
-.div-2 {
-  border-left: 1px solid #667F6E;
-  border-right: 1px solid #667F6E;
-}
 
 
 
