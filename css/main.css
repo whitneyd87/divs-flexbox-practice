@@ -106,6 +106,7 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background-color: #66CC86;
 }
 
 .wrapper {
@@ -117,14 +118,26 @@ body {
 
 .div-1, .div-2, .div-3 {
   align-items: center;
-  background-color: #f16059;
+  background-color: #3F7F53;
+  border-top: 1px solid #7FFFA7;
+  border-bottom: 1px solid #7FFFA7;
   color: #fff;
   display: flex;
-  font-size: 1.6em;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
   height: 300px;
   justify-content: center;
+  letter-spacing: 0.5px;
   line-height: 1.5em;
+  padding: 3%;
   width: 30%;
+}
+
+
+.div-2 {
+  border-left: 1px solid #667F6E;
+  border-right: 1px solid #667F6E;
 }
 
 
